@@ -1,11 +1,11 @@
 {
     "name": "ameerdesginer/chunks-upload-for-filament",
-    "description": "a simple pcakage to allow chunks upload in filament",
+    "description": "A simple package to allow chunks upload in Filament",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Ameerdesginer\\": "src/"
+            "Ameerdesginer\\ChunkUpload\\": "src/"
         }
     },
     "authors": [
@@ -16,7 +16,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "AmeerDesginer\\src\\ChunkUploadServiceProvider"
+                "Ameerdesginer\\ChunkUpload\\ChunkUploadServiceProvider"
             ]
         }
     },
