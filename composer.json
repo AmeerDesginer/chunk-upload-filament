@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Ameerdesginer\\ChunkUpload\\": "src/"
+            "Ameerdesginer\\": "src/"
         }
     },
     "authors": [
@@ -16,7 +16,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "AmeerDesginer\\ChunkUpload\\ChunkUploadServiceProvider"
+                "AmeerDesginer\\src\\ChunkUploadServiceProvider"
             ]
         }
     },
